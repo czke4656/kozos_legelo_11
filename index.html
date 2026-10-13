@@ -7,16 +7,13 @@
     <title>Czeczei Bence</title>
 </head>
 <body>
-    <main>
         <div id="headnav">
         <h2>✳ A közös legelő</h2>
-        <nav>
-            <ul>
-                <li><a href="index.html">Kezdőlap</a></li>
-                <li><a href="dontes.html">Döntés</a></li>
-                <li><a href="kovetkezmeny.html">Következmény</a></li>
-                <li><a href="reflexio.html">Mit tennél?</a></li>
-            </ul>
+        <nav id="highnav">
+            <a href="index.html">1. Kezdőlap</a>
+            <a href="dontes.html">2. Döntés</a>
+            <a href="kovetkezmeny.html">3. Következmény</a>
+            <a href="reflexio.html">4. Mit tennél?</a>
         </nav>
         </div>
         <header id="header">
@@ -33,19 +30,19 @@
         </div>
         </header>
         <nav id="lownav">
-            <ul>
-                <li><a href="index.html">Kezdet</a></li>
-                <li><a href="dontes.html">Döntés</a></li>
-                <li><a href="kovetkezmeny.html">Következmény</a></li>
-                <li><a href="reflexio.html">Reflexió</a></li>
-            </ul>
+                <a href="index.html">Kezdet</a>
+                <a href="dontes.html">Döntés</a>
+                <a href="kovetkezmeny.html">Következmény</a>
+                <a href="reflexio.html">Reflexió</a>       
         </nav>
+ 
+    <main>
         <article>
             <div id="arheader">
                 <h2>A legelő most mindenkinek elég</h2>
                 <p>Kilenc tehén legel a közös területen. Egy állat naponta 10 liter tejet ad.</p>
             </div>
-            <div id="artehen">
+            <div id="artehen" class="arrend">
                 <img src="assets/tehen.svg" alt="">
                 <img src="assets/tehen.svg" alt="">
                 <img src="assets/tehen.svg" alt="">
@@ -56,25 +53,36 @@
                 <img src="assets/tehen.svg" alt="">
                 <img src="assets/tehen.svg" alt="">
             </div>
-            <div>
-                <div>
+            <div class="arrend">
+                <div class="aradatok">
                     <h2>9</h2>
                     <p>tehén a legelőn</p>
                 </div>
-                <div>
+                <div class="aradatok">
                     <h2>10 liter</h2>
                     <p>tej egy tehéntől naponta</p>
                 </div>
-                <div>
+                <div class="aradatok">
                     <h2>10 liter</h2>
                     <p>egy gazda napi hozama</p>
                 </div>
             </div>
-            <div>
+            <div class="arrend">
                 <p>Gondold végig: Mitől függ, hogy a legelő a következő napokban is elegendő táplálékot ad-e?</p>
             </div>
         </article>
-        <aside></aside>
+        <aside>
+            <h3></h3>
+            <div class="card">
+                <p>„Van elég fű.”</p>
+                <p>Most mindenkinek jut.</p>
+            </div>
+            <div class="card">
+                <p>„A legelő közös.”</p>
+                <p>A döntésem a többiekre is hatással lehet.</p>
+            </div>
+        </aside>
+    </main>
         <footer>
             <div>
                 <p>A számok a tankönyvi történet állapotait mutatják.</p>
@@ -83,6 +91,5 @@
                 <a href="dontes.html">Mi történik ezután? →</a>
             </div>
         </footer>
-    </main>
 </body>
 </html>

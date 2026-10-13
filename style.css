@@ -1,6 +1,15 @@
+body {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: auto;
+}
+
 main {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f7f7ee;
+    display: flex;
+    flex-direction: row;
 }
 
 img {
@@ -12,6 +21,12 @@ img {
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: space-between;
+    background-color: rgb(114, 172, 0);
+}
+
+#highnav {
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 #header {
@@ -19,28 +34,59 @@ img {
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: space-evenly;
+    background-color: blueviolet;
+
 }
 
-#lownaw {
+#lownav {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
     justify-content: space-evenly;
+    background-color: cadetblue;
 }
 
 article {
     display: flex;
     flex-direction: column;
     justify-content: stretch;
+    background-color: orangered;
+    width: 100%;
 }
 
 #arheader {
-
+    background-color: royalblue;
 }
 
 #artehen {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    background-color: goldenrod;
+    justify-content: center;
 }
 
+aside {
+    background-color: darkorchid;
+}
+
+.card {
+    border-left-style: solid;
+    border-left-color: rgb(106, 161, 22);
+}
+
+.arrend {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1000px) {
+    main {
+        flex-direction: column;
+    }
+}
